@@ -1,8 +1,21 @@
-import throttle from 'lodash/throttle';
-
-const Sum = (a: number, b: number): number => {
-    console.log(throttle)
-    return a + b + 7;
+interface CoolPerson {
+  name: string;
+  age: number;
 }
 
-export default Sum
+const tom: CoolPerson = {
+  name: 'Tom',
+  age: 25,
+};
+
+if (tom.age === 25) {
+  //   console.log(tom.name + 'is 25 years old.');
+}
+// console.log(sss);
+
+const Sum = (a: number, b: number): number => {
+  // const a22 = '222';
+  return a + b + 7;
+};
+
+export default Sum;
