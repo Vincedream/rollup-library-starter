@@ -22,6 +22,7 @@ module.exports = {
         es6: true,
         node: true,
     },
+    ignorePatterns: ["test/"],
     // 自定义配置，如果有不适合的规则，可以在此调整
     rules: {
         "no-undef": "error",
